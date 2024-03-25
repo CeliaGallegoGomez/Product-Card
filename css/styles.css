@@ -5,11 +5,40 @@
 img {
   display: block;
   max-width: 100%;
+  width: 300px;
+  height: 450px;
+  border-radius: 8px 0 0 8px;
 }
-
+@media screen and (min-width: 370px) {
+  img {
+    width: 343px;
+    height: 240px;
+  }
+} 
+ 
 a {
   text-decoration: none;
-  color: inherit;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  color: #1C232B;
+  width: 236px;
+  height: 96px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  color: #6C7289;
+  letter-spacing: 5px;
 }
 
 ul {
@@ -21,6 +50,59 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #6C7289;
 }
+
+p {
+  width: 237px;
+  height: 92px;
+}
+
+.card {
+width: 600px;
+height: 450px;
+background-color: red;
+}
+
+.button {
+  color: white;
+  background-color: #3D8168;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  width: 236px;
+  height: 48px;
+  font-size: 14px;
+  padding: 10px 64px;
+  border-radius: 8px;
+}
+
+.price {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #3D8168;
+  font-size: 32px;
+
+}
+
+.price-crossed {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  color: #6C7289;
+  text-decoration: line-through;
+
+}
+
 
