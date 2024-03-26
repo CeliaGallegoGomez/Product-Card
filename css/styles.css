@@ -10,13 +10,12 @@ img {
   height: 450px;
   border-radius: 8px 0 0 8px;
 }
-
  
 a {
   text-decoration: none;
 }
 
-h1 {
+.tittle {
   font-family: "Fraunces", serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -27,7 +26,7 @@ h1 {
   height: 96px;
 }
 
-h2 {
+.product {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -55,7 +54,7 @@ body {
   background-color: #F2EAE2;
 }
 
-p {
+.description {
   width: 237px;
   height: 92px;
   line-height: 25px;
@@ -65,7 +64,7 @@ p {
 width: 600px;
 height: 450px;
 background-color: red;
-border-radius: 9px;
+border-radius: 8px;
 margin-inline: auto;
 }
 
@@ -83,10 +82,7 @@ margin-inline: auto;
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
-  width: 236px;
-  height: 48px;
-  font-size: 14px;
-  padding: 10px 64px;
+  padding: 14px 72px;
   border-radius: 8px;
   display: inline-block;
 }
